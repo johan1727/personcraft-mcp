@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.johan1727/personcraft",
+  "title": "PersonCraft",
+  "description": "Your own Claude designs and codes Godot 4 games; PersonCraft keeps every revision, generates art and audio with credits, and tests each build in a sandbox with real screenshots.",
+  "repository": {
+    "url": "https://github.com/johan1727/personcraft-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "websiteUrl": "https://personcraft.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://personcraft.com/api/mcp"
+    }
+  ]
+}
